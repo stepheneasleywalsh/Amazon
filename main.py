@@ -16,4 +16,6 @@ def amazon_get_price_by_url(url):
 print(amazon_get_price_by_url(
     "https://www.amazon.co.uk//Bible-Large-Print-Harper-Bibles/dp/0061244899/ref=sr_1_1?crid=3GDWA4FIE0OKM&keywords=isbn%3A+0061244899&qid=1646754105&sprefix=isbn+0061244899%2Caps%2C74&sr=8-1#customerReviews"))
 
+# Close and Quit
+session.close()
 quit()
